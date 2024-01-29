@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="CSS/style.css">
+    <title>Ramesh Selvam - Skiils</title>
+</head>
+
+<body>
+    <div class="card">
+        <header>
+            <div class="sidebar border-right" style="display:none" id="leftMenu">
+                <button onclick="closeLeftMenu()" class="bar-item button large">Close &times;</button>
+                <a href="Ramesh.html" class="bar-item button">Home Page</a>
+                <a href="Skills.html" class="bar-item button">Skills</a>
+            </div>
+            <div class="teal">
+                <button class="button teal xlarge" onclick="openLeftMenu()">&#9776;</button>
+            </div>
+            <div>
+                <h1>Ramesh Selvam</h1>
+                <p>Mobile Application Developer</p>
+        </header>
+    </div>
+
+    <main>
+        <div>
+            <h2>Skills</h2>
+            <ul>
+                <li>Technologies : Android, Augmented Reality</li>
+                <li>Programming Languages : Dart, Java</li>
+                <li>Other Skills : Strong OOPs knowledge, SDLC, STLC, Manual Testing, Documentation skills, Debugging
+                    and troubleshooting</li>
+                <li>Interpersonal Skills : Good Communication skills, Multitasking, Good Team Player, Time Management,
+                    Problem-solving skills, Quick learner, Leadership, Hard Work and Smart work</li>
+            </ul>
+        </div>
+        <h2>Achivements & Awards</h2>
+        <ul>
+            <li>Awarded Employee of the month</li>
+            <li>Awarded Best Outgoing Student 2021 of the year among 100+ students.</li>
+            <li>1st Rank in ‘TOP CODERS & DESIGNER’ Event Organized by E-box Colleges</li>
+            <li>Finalists of virtual IDEATHON Organized by MHRD’s Innovation cell & AICTE Delhi.</li>
+            <li>Qualifier of AICTE Vishwakarma Award Organized by AICTE,Delhi.</li>
+            <li>Won Best Paper Award at Anna University BIT campus Trichy.</li>
+        </ul>
+    </main>
+
+    <footer class="card">
+        <p>&copy; 2024 Ramesh Selvam. All rights reserved.</p>
+    </footer>
+
+    <script>
+        function openLeftMenu() {
+            document.getElementById("leftMenu").style.display = "block";
+        }
+
+        function closeLeftMenu() {
+            document.getElementById("leftMenu").style.display = "none";
+        }
+    </script>
+</body>
+
+</html>

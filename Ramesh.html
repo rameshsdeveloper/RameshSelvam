@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="CSS/style.css">
+    <title>Ramesh Selvam - Student Page</title>
+</head>
+
+<body>
+    <div class="card">
+        <header>
+            <div class="sidebar border-right" style="display:none" id="leftMenu">
+                <button onclick="closeLeftMenu()" class="bar-item button large">Close &times;</button>
+                <a href="Skills.html" class="bar-item button">Skills</a>
+            </div>
+            <div class="teal">
+                <button class="button teal xlarge" onclick="openLeftMenu()">&#9776;</button>
+            </div>
+            <div>
+                <h1>Student Page</h1>
+                <p>Student Number: 8960993</p>
+                <p>Student Name: Ramesh Selvam</p>
+                <p>Condor Email: rselvam0993@conestogac.on.ca</p>
+        </header>
+    </div>
+
+    <main>
+        <div>
+            <img src="Assests/Ramesh_Selvam.jpeg" alt="Your Photo" height="320" width="300">
+        </div>
+        <div>
+            <h2>About Me and Work Experience</h2>
+            <h2>Junior Software Engineer(2021 - 2023)</h1>
+                <p>I've worked with Vaken Technologies for just over two years as a young software engineer. I've
+                    already
+                    worked on numerous projects during my brief stay there, and I helped manage one project for a
+                    long-standing client of the company.</p>
+        </div>
+        <div>
+            <h2>Country : India</h2>
+            <p>India is a land of various cultures and a rich heritage. It is the seventh-largest country by area and
+                the second-most populous country globally. The peacock is India’s national bird, and the Bengal tiger is
+                the country’s national animal. The national song is named Vande Matram (written by Bankimchandra
+                Chatterji). The Indian national song was first performed at the Indian National Congress in 1896. ‘Jana
+                Gana Mana,’ India’s national anthem, is sung in 52 seconds. The national flag of India is named Tiranga,
+                which is made up of three colours: saffron, white, and green, with the Ashoka Chakra in navy blue in the
+                centre.</p>
+        </div>
+        <div>
+            <h2>Interesting Video</h2>
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/V3_GBs5ixzc?si=G2wH0LMdV_8Bybn8"
+                title="YouTube video player" frameborder="0"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                allowfullscreen></iframe>
+        </div>
+    </main>
+
+    <footer class="card">
+        <p>&copy; 2024 Ramesh Selvam. All rights reserved.</p>
+    </footer>
+
+    <script>
+        function openLeftMenu() {
+            document.getElementById("leftMenu").style.display = "block";
+        }
+
+        function closeLeftMenu() {
+            document.getElementById("leftMenu").style.display = "none";
+        }
+    </script>
+</body>
+
+</html>
